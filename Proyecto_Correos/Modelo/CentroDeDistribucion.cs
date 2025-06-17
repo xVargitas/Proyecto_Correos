@@ -10,5 +10,6 @@ namespace Proyecto_Correos.Modelo
     {
         public string IdCentroDistribucion { get; set; }
         public string Estado { get; set; }
+        public string Ciudad { get; set; }  
     }
 }
