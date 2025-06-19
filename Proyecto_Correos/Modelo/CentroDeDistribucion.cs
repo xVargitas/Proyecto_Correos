@@ -8,9 +8,9 @@ namespace Proyecto_Correos.Modelo
         public string Estado { get; set; }
         public string Zona { get; set; }
         public string DescripUbicacion { get; set; }
-        public int Capacidad { get; set; }
+        public int Capacidad { get; set; } 
+        public double Rango { get; set; }
 
-        
         public List<Paquete> paqAlmacenados;
         public List<Entrega> entregas;
 

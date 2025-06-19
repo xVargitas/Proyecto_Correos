@@ -8,9 +8,9 @@ namespace Proyecto_Correos.Modelo
         public double Peso { get; set; }
         public double Largo { get; set; }
         public double Ancho { get; set; }
-        public string Estado { get; set; }
-        public bool Prioridad { get; set; }
-        public string Descripcion { get; set; }
+        public string Estado { get; set; } 
+        public bool Prioridad { get; set; }// Alta, Bajo (cambiar de bool a enum)
+        public string Descripcion { get; set; } //Nombre delpaquete o de la persona que lo envía 
 
         public Paquete(int num, double peso, double largo, double ancho, string estado, bool prioridad, string descripcion)
         {
